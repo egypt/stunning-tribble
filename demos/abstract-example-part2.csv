@@ -1,0 +1,6 @@
+state,name,ip,port
+Open,galadriel,192.168.0.3,80
+closed,elrond,192.168.0.9,80
+open,legolas,192.168.0.8,8080
+OPEN,gandalf,192.168.0.1,80
+closed,opening,192.168.0.13,80

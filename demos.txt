@@ -1,0 +1,16 @@
+# Example from the Abstract
+
+awk -F, 'tolower($1)~/open/ {print $3}' abstract-example.csv |sort -Vr
+
+# Real output from recon-ng
+
+awk -F, '$3~/"80"/ {print $1}' recon.csv |tr -d \"
+
+
+# History Expansion
+
+echo 1 2 3 4 5 6 7
+echo !:2
+echo !:3
+echo !:1-3
+
